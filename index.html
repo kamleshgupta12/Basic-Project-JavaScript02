@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/brands.min.css"
+    integrity="sha512-8RxmFOVaKQe/xtg6lbscU9DU0IRhURWEuiI0tXevv+lXbAHfkpamD4VKFQRto9WgfOJDwOZ74c/s9Yesv3VvIQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="main-container">
+      <div class="circle1">
+      </div>
+      <div class="circle2">
+
+      </div>
+      <div class="Card-box">
+        <img src="photo.jpg" width="110px">
+        <h3>Kamlesh Gupta</h3>
+        <p>Pursuing MCA at KMCLU</p>
+        <div class="btn-box">
+          <div>
+            <button onclick="openModal()" class="btn"> <img src="share.png" width="14px">Share My Profile</button>
+          </div>
+          <div>
+            <a href="https://www.linkedin.com/in/kamlesh-gupta-396297225/ "><button>Follow Me</button></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="modal">
+      <div class="modal-content">
+        <div class="heading">
+          <h4>Share My Profile</h4>
+          <i id="closeModal" onclick="closeModal()" class="fa-solid fa-xmark"></i>
+        </div>
+        <p>share this via</p>
+        <div class="social-icon">
+          <a href="https://www.facebook.com/" class="fbook"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/" class="insta"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://web.whatsapp.com/" class="wts"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://twitter.com/" class="x"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/kamlesh-gupta-396297225/" class="lkdn"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+  <script src="index.js"></script>
+
+</html>
